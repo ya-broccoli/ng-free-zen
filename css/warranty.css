@@ -1,0 +1,36 @@
+.warranty {
+  padding: 30px 15px;
+}
+
+.warranty__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.warranty__text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.warranty__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* .warranty__copy {} */
+
+.warranty__image-block {
+  height: 72vw;
+  border: 1px solid #aaaaaa;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.warranty__image-block img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
