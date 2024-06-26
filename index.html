@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zen</title>
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/burger.css" />
 </head>
 <body>
   <header class="header">
@@ -32,14 +36,17 @@
         </ul>
       </nav>
       <div class="header__actions">
-        <select name="header__lang" id="lang">
-          <option value="en">EN</option>
-          <option value="ru">RU</option>
-        </select>
+        <label class="header__lang">
+          <img src="assets/icons/arrow-down.svg" alt="Arrow down.">
+          <select id="lang">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+          </select>
+        </label>
         <button class="header__theme" type="button" id="theme" width="26" height="26">
           <img src="assets/icons/theme.svg" alt="Moon.">
         </button>
-        <button class="header__burger" type="button" id="burger">
+        <button class="burger" type="button" id="burger">
           <span></span>
         </button>
       </div>
