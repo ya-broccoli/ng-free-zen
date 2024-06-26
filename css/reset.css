@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +13,7 @@ h4,
 h5,
 h6 {
   font-size: inherit;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 ul,
